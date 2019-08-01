@@ -78,7 +78,7 @@ return scripts.config();
 * The header has a **type** and a **subject**:
 
 ```
-<type>[(<scope>)]: <emoji> <pivotalTrackerId> <subject>
+<type>[(<scope>)]: <emoji> <trackerId> <subject>
 [BLANK LINE]
 [body]
 [BLANK LINE]
@@ -89,7 +89,7 @@ return scripts.config();
 
 The **header** is the only mandatory part of the commit message.
 
-The first line (type + pivotalTrackerId + subject) is limited to 50 characters **[enforced]**
+The first line (type + trackerId + subject) is limited to 50 characters **[enforced]**
 
 Any other line should be limited to 72 character **[automatic wrapping]**
 
