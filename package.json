@@ -21,6 +21,7 @@
     "build:readme": "mmarkdown",
     "test": "mocha",
     "precommit": "npm run lint",
+    "prepublishOnly": "npm run clean && npm run build",
     "commit": "node ./lib/cli.js",
     "eslint": "eslint lib/*.js"
   },
